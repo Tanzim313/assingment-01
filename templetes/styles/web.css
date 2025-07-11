@@ -157,6 +157,7 @@ nav ul li{
     max-height: 632px;
     background-color: hsl(0, 0%, 100%);
     margin-top: 30px;
+    justify-content:space-between;
 }
 
 .contact-form h2{
@@ -203,6 +204,36 @@ nav ul li{
     width:400pax;
 }
 
+
+.footer{
+
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  text-align: center;
+
+
+
+}
+
+.footer h1 {
+   font-size: xx-large;
+   font-weight: bolder;
+}
+.footer h6{
+   font-weight: lighter;
+}
+
+.footer ul{
+   display: flex;
+   margin: 0 auto;
+   gap: 20px;
+}
+
+.footer ul li{
+    list-style:none;
+    
+}
 
 
 
