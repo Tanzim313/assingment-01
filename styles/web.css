@@ -308,13 +308,13 @@ nav ul li{
     flex-direction: column;
     padding: 100px;
     gap:20px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .optional h1{
     font: bolder;
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 60px;
 
 }
 .optional h6{
