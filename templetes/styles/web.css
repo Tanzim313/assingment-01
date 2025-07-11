@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffffdd;
+    background-color: #F5F8FF;
 }
 
 .open-sans-normal {
@@ -23,6 +23,12 @@ body{
     border-radius: 10px;
     opacity: 100%;
 
+}
+.btn-primary:hover{
+    background-color: #ffd900;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 
@@ -69,41 +75,43 @@ nav ul li{
 
 .section{
     display: flex;
-    max-width: 1140px;
-    max-height: 328px;
     margin: 0 auto;
     justify-content: space-between;
-    padding: 113px ;
-    gap: 40px;
+    padding: 200px ;
+    gap: auto;
+
+    width: 1100;
+    height: 400;
 
 }
 
+
 .div{
-  max-width: 510px;
+  max-width: 500px;
   max-height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #ffffff; 
   padding: 20px;
   color: rgb(0, 0, 0);
-  border-radius: 10px;
-  margin-left: 20px;
+  margin-left: 100px;
   text-align: left;
 }
 
 .div h2{
     margin-bottom: 20px;
+
 }
 .div h6{
     margin-top: 0;
+    font-weight: lighter;
 }
 
 .image{
     max-width: 400px;
     max-height: 400px;
     border-radius: 50px;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .productive-user{
@@ -112,7 +120,7 @@ nav ul li{
     max-width: 1100px;
     max-height: 300px;
     padding: 20px 5px;
-    background-color: #5c58e169;
+    background-color: #E5E7FF;
     border-radius: 24px;
     box-shadow: 0 4 4 0  #00000069 25%;
 
@@ -135,7 +143,7 @@ nav ul li{
 .item-title{
     font-weight:bolder;
     font-size: 3.0rem;
-    color:#0051ff;
+    color:#4E47FF;
     margin-bottom: 0;
 }
 .item-des{
@@ -158,6 +166,8 @@ nav ul li{
     background-color: hsl(0, 0%, 100%);
     margin-top: 30px;
     justify-content:space-between;
+    box-shadow: 0 8px 24px rgb(221, 214, 214);
+    border-radius: 10px;
 }
 
 .contact-form h2{
@@ -204,6 +214,62 @@ nav ul li{
     width:400pax;
 }
 
+.users-say{
+   max-width:1100px;
+   max-height: 340;
+   margin:40px auto;
+   padding: 20px;
+   background-color:#ffffff ;
+   border-radius: 10px;
+   box-shadow:0 8px 20px rgba(0, 0, 0, 0.1) ;
+
+}
+
+.u-title h1{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color:#000000;
+}
+.main{
+    display: flex;
+}
+.users{
+   max-width:366.7px;
+   max-height: 243px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color:#ffffff ;
+   border-radius: 10px;
+   gap:20px;
+}
+.stars{
+    display: flex;
+    gap:5px;
+}
+.starts img{
+    width: 20px;
+    height: 20px;
+}
+
+.rev-info{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin-top: 10px;
+}
+.rev-info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 999px ;
+    object-fit: cover;
+}
+.details p{
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+}
+
 
 .footer{
 
@@ -212,8 +278,10 @@ nav ul li{
   padding: 70px;
   text-align: center;
 
-
-
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  margin: 20px auto;
 }
 
 .footer h1 {
@@ -234,7 +302,4 @@ nav ul li{
     list-style:none;
     
 }
-
-
-
 
