@@ -65,7 +65,7 @@ nav ul li{
 }
 
 .header{
-    background-image: url(../../Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
